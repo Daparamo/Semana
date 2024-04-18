@@ -6,7 +6,8 @@ export const Header = () => {
   const { user, resetUser } = useAuth();
 
   return (
-    <header className="h-[7vh] md:h-[10vh] border-b border-secondary-100 p-8 flex items-center justify-end gap-4">
+    <header className="h-[7vh] md:h-[10vh] border-b border-secondary-100 p-8 flex items-center justify-between gap-4 ">
+      <h1 className="text-3xl">Semana </h1>
       <nav className="flex gap-4 items-center">
         {user && user ? (
           <>

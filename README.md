@@ -1,30 +1,66 @@
-# React + TypeScript + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una prueba técnica para crear un Blog utilizando React y consumiendo datos de una API. La documentación de la API se puede encontrar en [Dummy API Getting Started](enlace).
 
-Currently, two official plugins are available:
+## Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Vista de Posts con imagen principal, tags y nombre del usuario.
+- Filtrado de posts por tags.
+- Vista de comentarios de cada post (preferiblemente mediante URL o modal).
+- Vista protegida con autenticación mediante Google SignIn.
+- Listado de usuarios con foto en la plataforma.
 
-## Expanding the ESLint configuration
+## 🛠️ Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<details>
+  <summary>Click to see details</summary>
 
-- Configure the top-level `parserOptions` property like this:
+- [**React**](https://react.dev/blog/2023/03/16/introducing-react-dev) - The library for web and native user interfaces
+- [**Typescript**](https://www.typescriptlang.org/) - JavaScript with syntax for types.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+</details>
+
+## 🚀 Getting Started
+
+<details>
+  <summary>Click to see details</summary>
+<br>
+
+1. Clone this repository.
+
+```bash
+git clone git@github.com:Daparamo/Semana.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Install the dependencies:
+
+```bash
+npm install
+```
+
+
+3. Run the development server:
+
+```bash
+npm run dev
+
+```
+
+4. Open [**http://localhost:5173**](http://localhost:5173/) with your browser to see the result 🚀
+</details>
+
+
+
+## 🧞 Commands
+<details>
+  <summary>Click to see details</summary>
+<br>
+
+|     | Command          | Action                                        |
+| :-- | :--------------- | :-------------------------------------------- |
+| ⚙️  | `dev`            | Starts local dev server at `localhost:5173`.  |
+| ⚙️  | `build`          | Build your production site to `./dist/`.     |
+
+                   
+</details>
