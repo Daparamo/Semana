@@ -10,6 +10,10 @@ Este proyecto es una prueba técnica para crear un Blog utilizando React y consu
 - Vista protegida con autenticación mediante Google SignIn.
 - Listado de usuarios con foto en la plataforma.
 
+## 🚀 Demo
+ https://semana-zeta.vercel.app/
+
+
 ## 🛠️ Stack
 
 <details>
